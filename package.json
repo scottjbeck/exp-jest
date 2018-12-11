@@ -1,0 +1,21 @@
+{
+  "name": "exp-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:scottjbeck/exp-jest.git",
+  "author": "Scott Beck <scottjbeck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest --watch --verbose"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setup.js"
+    ]
+  }
+}
